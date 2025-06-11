@@ -51,6 +51,6 @@ fprintf('Power in Delta Load: %.2f + j%.2f VA\n', real(PY2), imag(PY2));
 fprintf('Power in Line: %.2f + j%.2f VA\n', real(PL), imag(PL));
 fprintf('Total Power Supplied: %.2f + j%.2f VA\n', real(S), imag(S));
 fprintf('Total Power Consumed: %.2f + j%.2f VA\n', real(Ptotal), imag(Ptotal));
-disp('<<<<<<<<<<<<<<<<<End>>>>>>>>>>>>>>>>>>');
+
 
 
