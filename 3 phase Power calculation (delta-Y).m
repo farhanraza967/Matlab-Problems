@@ -13,7 +13,6 @@ ZDelta = 60 - 1j*45;         % Load impedance (Delta-connection)
 
 % === Convert Delta load to equivalent Y-load ===
 ZYL = ZDelta / 3;
-
 % === Voltage and current calculations ===
 VP = VL / sqrt(3);           % Phase voltage
 
